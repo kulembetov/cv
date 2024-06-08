@@ -114,7 +114,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                            className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
                             key={badge}
                           >
                             {badge}
@@ -154,7 +154,17 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 print:text-[12px]">
-                  {education.degree}
+                  <p>{education.degree}</p>
+                  {education.location && (
+                    <p className="text-xs font-bold text-muted-foreground">
+                      {education.location}
+                    </p>
+                  )}
+                  {education.description && (
+                    <p className="text-xs text-muted-foreground">
+                      {education.description}
+                    </p>
+                  )}
                 </CardContent>
               </Card>
             );

@@ -1,67 +1,92 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+# Artur Kulembetov - CV
 
-# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+## Overview
+I am a detail-oriented Software Engineer currently based in Bangkok, Thailand. I have extensive experience in full-stack development, focusing on building high-quality, scalable products. My expertise spans various technologies, including React, Redux, MongoDB, Node.js, and Docker.
 
-Simple web app that renders minimalist CV with print-friendly layout.
+## Summary
+I completed an intensive web development program, mastering technologies such as React, Redux, MongoDB, Node.js, and Docker. I have successfully developed and deployed various web applications, demonstrating professionalism in full-stack development. I have enhanced my teamwork and problem-solving skills through collaboration within Agile and Git frameworks. All my works underwent thorough review with subsequent code refactoring based on reviewer comments, contributing to the improvement of project quality and my professional growth.
 
-Built with Next.js and shadcn/ui, deployed on Vercel.
+## Education
+- **IU International University of Applied Sciences** (2024 - 2027)
+   - Bachelor's Degree in Computer Science
+   - Courses include Object-Oriented Programming, Java, and other fundamental computer science subjects.
 
-# Features
+- **Yandex Practicum** (Sep 2022 - May 2024)
+   - Certificate program in Information Technology
+   - Gained hands-on programming skills by developing projects with technologies such as React, Node.js, and Docker. Practical experience in teamwork and hackathons.
+   - Activities and societies: Hackathons, teamwork projects.
 
-- Setup only takes a few minutes [single config file](./src/data/resume-data.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss
-- Auto generated Layout
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## Work Experience
+- **Frontend Developer at Alfa Ecosystem** (May 2024 - Present)
+   - Contributed to a project refactoring Redux slices into thunks and types, enhancing code modularity and maintainability.
+   - Configured and optimized Husky and ESLint to ensure smooth development workflows and enforce code quality standards.
+   - Technologies: React, Redux, Next.js
 
-# Getting Started Locally
+## Skills
+- **Frontend:** React, Redux
+- **Backend:** Node.js, MongoDB, Express
+- **UI/UX Design and Styling:** TailwindCSS, shadcn/ui, Material-UI
+- **Deployment & Operations:** Git, Docker
+- **Database Management:** Prisma
+- **API Testing:** Postman
 
-1. Clone this repository to your local machine:
+## Achievements
+- **Security Update:** Successfully migrated outdated project dependencies to newer versions, addressing and resolving security vulnerabilities.
+- **Web Applications Development:** Developed and launched multiple web applications using React, Node.js, and MongoDB.
+- **Docker Deployment:** Designed and deployed a React application using Docker and Docker Compose, configuring Nginx for optimal load balancing and secure connections.
 
-   ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
-   ```
+## Projects
+1. **Card Hub**
+   - Tech Stack: React, Redux Toolkit, Tailwind CSS
+   - [GitHub - Card Hub](https://github.com/kulembetov/card-hub)
 
-2. Move to the cloned directory
+2. **Property Pulse**
+   - Tech Stack: Next.js, Tailwind CSS, next-auth, react-icons, react-geo, react-map-gl, react-toastify, react-spinner
+   - [GitHub - Property Pulse](https://github.com/kulembetov/property-pulse)
 
-   ```bash
-   cd cv
-   ```
+3. **Weather Wise**
+   - Tech Stack: Next.js, Google Maps API, Open-Meteo API, shadcn UI, Material-UI, Radix Toast
+   - [GitHub - Weather Wise](https://github.com/kulembetov/weather-wise)
 
-3. Install dependencies:
+4. **Button Component**
+   - Tech Stack: React, Next.js
+   - [GitHub - Button Component](https://github.com/kulembetov/button-component)
 
-   ```bash
-   yarn install
-   ```
+5. **Blog Card**
+   - Tech Stack: React, Next.js
+   - [GitHub - Blog Card](https://github.com/kulembetov/blog-card)
 
-4. Start the local Server:
+6. **Amazon Davidson**
+   - Tech Stack: Next.js, React, TypeScript, Material-UI
+   - [GitHub - Amazon Davidson](https://github.com/kulembetov/amazon-davidson)
 
-   ```bash
-   yarn dev
-   ```
+7. **Natours Project**
+   - Tech Stack: React, Next.js, SCSS
+   - [GitHub - Natours Project](https://github.com/kulembetov/natours-project)
 
-5. Open the [Config file](./src/data/resume-data.tsx) and make changes
+8. **SupportMe**
+   - Tech Stack: React.js, Next.js, shadcn/ui
+   - [GitHub - SupportMe](https://github.com/kulembetov/support-me)
 
-# Run with Docker
+9. **Course Enrollment and Grade Management System**
+   - Tech Stack: Java, Data Structures, OOP
+   - [GitHub - Course Enrollment and Grade Management System](https://github.com/kulembetov/course-enrollment-n-grade-management-system)
 
-Build the container
+10. **American Quotient**
+   - Tech Stack: Java, Data Structures, OOP
+   - [GitHub - American Quotient](https://github.com/kulembetov/american-quotient)
 
-```
-docker compose build
-```
+11. **Deployed Application Using PM2**
+   - Tech Stack: JavaScript, TypeScript, Express.js, Docker, Nginx
+   - [GitHub - Deployed Application Using PM2](https://github.com/kulembetov/web-plus-docker-and-compose)
 
-Run the container
+12. **LitLootCrate**
+   - Tech Stack: Java, Data Structures, OOP
+   - [GitHub - LitLootCrate](https://github.com/kulembetov/litlootcrate)
 
-```
-docker compose up -d
-```
-
-Stop the Container
-
-```
-docker compose down 
-```
-
-# License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+## Contact
+- **Email:** [artur_kulembetov@outlook.com](mailto:artur_kulembetov@outlook.com)
+- **Phone:** [+7 995 797 55 99](tel:+79957975599)
+- **GitHub:** [github.com/kulembetov](https://github.com/kulembetov)
+- **LinkedIn:** [linkedin.com/in/kulembetov](https://www.linkedin.com/in/kulembetov/)
+- **X:** [x.com/arturkulembetov](https://x.com/arturkulembetov)
