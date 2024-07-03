@@ -53,15 +53,27 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Alfa Ecosystem",
-      link: "",
+      company: "presentsimple.ai",
+      link: "https://presentsimple.ai/",
       badges: ["Remote"],
-      title: "Frontend Developer",
+      title: "Full Stack Developer",
       logo: "",
-      start: "May 2024",
+      start: "June 2024",
       end: "Present",
       description:
-        "Contributed to a project refactoring Redux slices into thunks and types, enhancing code modularity and maintainability. Configured and optimized Husky and ESLint to ensure smooth development workflows and enforce code quality standards. Technologies: React, Redux, Next.js",
+        "Developed a comprehensive authentication system using React, Vite, and Tailwind CSS for the frontend, and NestJS with Passport for the backend. Key features include a unified registration/login form, email confirmation, and OAuth integration with Google, Yandex, VK, and Telegram. The system supports secure token storage and QR code generation for Telegram authentication. Enhanced the user interface with a default dark theme and dynamic success/error messages, ensuring a secure and seamless user experience.",
+    },
+    {
+      company: "Alfa Ecosystem",
+      link: "https://www.linkedin.com/company/esalfa/",
+      badges: ["Remote"],
+      title: "Frontend Developer",
+      logo: "https://avatars.githubusercontent.com/u/56837366?v=4",
+      start: "May 2024",
+      end: "June 2024",
+      description: [
+        "Contributed to a project refactoring Redux slices into thunks and types, enhancing code modularity and maintainability. I configured and optimized Husky and ESLint to ensure smooth development workflows and enforce code quality standards. Working in Bitrix with weekly meetings.",
+      ],
     },
   ],
   skills: [
@@ -90,6 +102,18 @@ export const RESUME_DATA = {
     },
   ],
   projects: [
+    {
+      title: "Order Validation Food Delivery",
+      techStack: ["Python"],
+      description:
+        "About\n" +
+        "I ordered water, a pie, and bread from a local thai app. Water was out of stock. When the first delivery came, one pie was out of stock. I ordered 10 pies (400 baht) and a few bottles (50 baht), getting free delivery. To prevent this issue, I wrote a script.",
+      logo: "",
+      link: {
+        label: "GitHub - kulembetov/order-validation-food-delivery",
+        href: "https://github.com/kulembetov/order-validation-food-delivery",
+      },
+    },
     {
       title: "Card Hub",
       techStack: ["React", "Redux Toolkit", "Tailwind CSS"],
