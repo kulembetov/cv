@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about: "Software Engineer",
   summary:
-    "Completed an intensive web development program, mastering technologies such as React, Redux, MongoDB, Node.js, and Docker. Successfully developed and deployed various web applications, demonstrating professionalism in full-stack development. Enhanced teamwork and problem-solving skills through collaboration within Agile and Git frameworks. All works underwent thorough review with subsequent code refactoring based on reviewer comments, contributing to the improvement of project quality and professional growth.",
+    "Experienced web developer with deep knowledge in application architecture and design, actively using Next.js, TypeScript, and React. Worked in Agile teams, which helped me develop teamwork and deadline management skills. Developed a comprehensive authentication system at my current job and continue to engage in side projects and learning to constantly improve my skills.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
-  personalWebsiteUrl: "https://",
+  personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
     email: "artur_kulembetov@outlook.com",
     tel: "+7 995 797 55 99",
