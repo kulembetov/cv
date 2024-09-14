@@ -1,4 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { TelegramIcon } from "@/components/icons/TelgramIcon";
 
 export const RESUME_DATA = {
   name: "Artur Kulembetov",
@@ -29,14 +30,19 @@ export const RESUME_DATA = {
         url: "https://x.com/arturkulembetov",
         icon: XIcon,
       },
+      {
+        name: "Telegram",
+        url: "https://t.me/kulembetov",
+        icon: TelegramIcon,
+      }
     ],
   },
   education: [
     {
       school: "IU International University of Applied Sciences",
       degree: "Bachelor's Degree in Computer Science",
-      start: "2024",
-      end: "2027",
+      start: "May 2024",
+      end: "May 2027",
       location: "Bad Honnef, Germany",
       description:
         "Focusing on foundational courses such as Object-Oriented Programming, Java, Data Structures, and Web Development. Gaining hands-on experience through various projects and collaborative teamwork.",
@@ -61,7 +67,7 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description:
-        "Developed a comprehensive authentication system using React, Vite, and Tailwind CSS for the frontend, and NestJS with Passport for the backend. Key features include a unified registration/login form, email confirmation, and OAuth integration with Google, Yandex, VK, and Telegram. The system supports secure token storage and QR code generation for Telegram authentication. Enhanced the user interface with a default dark theme and dynamic success/error messages, ensuring a secure and seamless user experience.",
+        "Developed a comprehensive authentication system using React, Vite, and Tailwind CSS for the frontend, and NestJS with Passport for the backend. Key features include a unified registration/login form, email confirmation, and OAuth integration with Google, Yandex, VK, and Telegram. The system supports secure token storage and QR code generation for Telegram authentication. Enhanced the user interface with a default dark theme and dynamic success/error messages, ensuring a secure and seamless user experience. Reorganized file structure following the FSD, splitting files for improved modularity and maintainability. Developed dynamic presentation layouts for a leading bank using React, ensuring brand consistency and a responsive interface as part of a collaborative project with one of our key partners.",
     },
     {
       company: "Alfa Ecosystem",
@@ -78,7 +84,7 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Frontend: React, Redux",
-    "Backend: Node.js, MongoDB, Express",
+    "Backend: Node.js, NestJS, MongoDB, Express",
     "UI/UX Design and Styling: TailwindCSS, shadcn/ui, Material-UI",
     "Deployment & Operations: Git, Docker",
     "Database Management: Prisma",
