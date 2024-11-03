@@ -83,12 +83,13 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Frontend: React, Redux",
+    "Frontend: React, Redux, Zustand, Next.js, TypeScript",
     "Backend: Node.js, NestJS, MongoDB, Express",
     "UI/UX Design and Styling: TailwindCSS, shadcn/ui, Material-UI",
-    "Deployment & Operations: Git, Docker",
+    "Deployment & Operations: Git, Docker, Kubernetes, Nginx, PM2",
+    "Databases: PostgreSQL, MongoDB, Supabase",
     "Database Management: Prisma",
-    "API Testing: Postman",
+    "API Testing: Postman, Insomnia",
   ],
   achievements: [
     {
@@ -108,6 +109,18 @@ export const RESUME_DATA = {
     },
   ],
   projects: [
+    {
+      title: "Quzzly AI",
+      techStack: ['React', 'Vite', 'Tailwind CSS', 'shadcn/ui', 'Zustand', 'Axios', 'Netlify'],
+      description:
+        "About\n" +
+        "An interactive web-based quiz application that allows users to test their knowledge with real-time feedback. The app fetches trivia questions from an external API and provides a dynamic quiz experience. It is built with React, styled with Tailwind, and supports integration with Telegram WebApps for seamless use within the Telegram ecosystem.",
+      logo: "",
+      link: {
+        label: "GitHub - kulembetov/quizzly-ai",
+        href: "https://github.com/kulembetov/quizzly-ai",
+      },
+    },
     {
       title: "Order Validation Food Delivery",
       techStack: ["Python"],
