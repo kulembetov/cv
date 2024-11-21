@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about: "Software Engineer",
   summary:
-    "Experienced web developer with deep knowledge in application architecture and design, actively using Next.js, TypeScript, and React. Worked in Agile teams, which helped me develop teamwork and deadline management skills. Developed a comprehensive authentication system at my current job and continue to engage in side projects and learning to constantly improve my skills.",
+    "Results-driven web developer with expertise in designing scalable, user-centric applications and improving workflows. Skilled in modern web technologies like Next.js, TypeScript, and React, with a strong focus on delivering impactful solutions and exceptional user experiences. Experienced in Agile environments, emphasizing collaboration, code quality, and continuous improvement.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -62,24 +62,12 @@ export const RESUME_DATA = {
       company: "presentsimple.ai",
       link: "https://presentsimple.ai/",
       badges: ["Remote"],
-      title: "Full Stack Developer",
+      title: "Full-Stack Developer",
       logo: "",
       start: "June 2024",
       end: "Present",
       description:
-        "Developed a comprehensive authentication system using React, Vite, and Tailwind CSS for the frontend, and NestJS with Passport for the backend. Key features include a unified registration/login form, email confirmation, and OAuth integration with Google, Yandex, VK, and Telegram. The system supports secure token storage and QR code generation for Telegram authentication. Enhanced the user interface with a default dark theme and dynamic success/error messages, ensuring a secure and seamless user experience. Reorganized file structure following the FSD, splitting files for improved modularity and maintainability. Developed dynamic presentation layouts for a leading bank using React, ensuring brand consistency and a responsive interface as part of a collaborative project with one of our key partners.",
-    },
-    {
-      company: "Alfa Ecosystem",
-      link: "https://www.linkedin.com/company/esalfa/",
-      badges: ["Remote"],
-      title: "Frontend Developer",
-      logo: "https://avatars.githubusercontent.com/u/56837366?v=4",
-      start: "May 2024",
-      end: "June 2024",
-      description: [
-        "Contributed to a project refactoring Redux slices into thunks and types, enhancing code modularity and maintainability. I configured and optimized Husky and ESLint to ensure smooth development workflows and enforce code quality standards. Working in Bitrix with weekly meetings.",
-      ],
+        "Built a secure and efficient authentication system using React, Vite, Tailwind CSS for the frontend, and NestJS with Passport for the backend, streamlining user access and improving security. Features included a unified registration/login form, email confirmation, OAuth integration with Google, Yandex, VK, and Telegram, secure token storage, and QR code generation for Telegram authentication. Enhanced the UI with dynamic success/error messaging and theme options, improving usability and user engagement. Refactored Redux structure to improve modularity and state management, simplifying the development process. Applied the Feature-Sliced Design (FSD) architecture to ensure maintainability and scalability, reducing onboarding complexity for new developers. Developed dynamic, brand-aligned presentation layouts for a key banking partner, driving improved customer engagement and positive client feedback. Worked with Yandex Cloud for Teams to manage workflows in an Agile environment, ensuring on-time project delivery and strong team alignment.",
     },
   ],
   skills: [
@@ -89,7 +77,7 @@ export const RESUME_DATA = {
     "Deployment & Operations: Git, Docker, Kubernetes, Nginx, PM2",
     "Databases: PostgreSQL, MongoDB, Supabase",
     "Database Management: Prisma",
-    "API Testing: Postman, Insomnia",
+    "API Testing: Postman, Insomnia"
   ],
   achievements: [
     {
