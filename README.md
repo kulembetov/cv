@@ -38,7 +38,7 @@ Experienced web developer with deep knowledge in application architecture and de
 
 - **Frontend:** React, Redux, Next.js, TailwindCSS, TypeScript
 - **Backend:** Node.js, NestJS, MongoDB, Express
-- **UI/UX Design and Styling:** TailwindCSS, shadcn/ui, Material-UI
+- **UI/UX Design and Styling:** Storybook, TailwindCSS, shadcn/ui, Material-UI
 - **Deployment & Operations:** Git, Docker, Docker Compose, Nginx
 - **Database Management:** Prisma, MongoDB
 - **API Testing:** Postman

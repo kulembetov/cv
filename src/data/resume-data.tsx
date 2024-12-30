@@ -73,7 +73,7 @@ export const RESUME_DATA = {
   skills: [
     "Frontend: React, Redux, Zustand, Next.js, TypeScript",
     "Backend: Node.js, NestJS, MongoDB, Express",
-    "UI/UX Design and Styling: TailwindCSS, shadcn/ui, Material-UI",
+    "UI/UX Design and Styling: Storybook, TailwindCSS, shadcn/ui, Material-UI",
     "Deployment & Operations: Git, Docker, Kubernetes, Nginx, PM2",
     "Databases: PostgreSQL, MongoDB, Supabase",
     "Database Management: Prisma",
