@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about: "Software Engineer",
   summary:
-    "Results-driven web developer with expertise in designing scalable, user-centric applications and improving workflows. Skilled in modern web technologies like Next.js, TypeScript, and React, with a strong focus on delivering impactful solutions and exceptional user experiences. Experienced in Agile environments, emphasizing collaboration, code quality, and continuous improvement.",
+    "Full-Stack Developer with hands-on experience in building scalable, high-performance applications and optimizing workflows. Proficient in React, Next.js, TypeScript, and NestJS, with a focus on secure authentication, modular architecture, and AI-powered solutions. Experienced in migrating frontend logic to backend services, integrating third-party APIs, and refining UI/UX for better engagement. Strong background in Agile development, improving team collaboration through structured workflows, task management, and continuous delivery.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -43,18 +43,18 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science",
       start: "May 2024",
       end: "May 2027",
-      location: "Bad Honnef, Germany",
+      location: "Erfurt, Germany",
       description:
-        "Focusing on foundational courses such as Object-Oriented Programming, Java, Data Structures, and Web Development. Gaining hands-on experience through various projects and collaborative teamwork.",
+        "Studying foundational courses including Object-Oriented Programming, Java, Data Structures, and Web Development, with hands-on projects and collaborative teamwork.",
     },
     {
       school: "Yandex Practicum",
-      degree: "Certificate program in Information Technology",
+      degree: "Professional Diploma in Web Development",
       start: "Sep 2022",
       end: "May 2024",
-      description:
-        "In my certificate program, I gained hands-on programming skills by developing projects with technologies such as React, Node.js, and Docker, along with practical experience in teamwork and hackathons. Activities and societies: Hackathons, teamwork projects.",
       location: "Moscow, Russia",
+      description:
+        "Developed practical programming skills through React, Node.js, and Docker projects, gaining hands-on experience in teamwork and hackathons.",
     },
   ],
   work: [
@@ -67,33 +67,37 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description:
-        "Built a secure and efficient authentication system using React, Vite, Tailwind CSS for the frontend, and NestJS with Passport for the backend, streamlining user access and improving security. Features included a unified registration/login form, email confirmation, OAuth integration with Google, Yandex, VK, and Telegram, secure token storage, and QR code generation for Telegram authentication. Enhanced the UI with dynamic success/error messaging and theme options, improving usability and user engagement. Refactored Redux structure to improve modularity and state management, simplifying the development process. Applied the Feature-Sliced Design (FSD) architecture to ensure maintainability and scalability, reducing onboarding complexity for new developers. Developed dynamic, brand-aligned presentation layouts for a key banking partner, driving improved customer engagement and positive client feedback. Worked with Yandex Cloud for Teams to manage workflows in an Agile environment, ensuring on-time project delivery and strong team alignment.",
+        "Built a secure authentication system using React, Tailwind CSS, and NestJS, replacing local-only authentication with OAuth integration. This improved registration/login flow, ensured secure token storage, and enabled role-based access control.\n\n" +
+        "Wrote code following Feature-Sliced Design (FSD) architecture, making the codebase modular and maintainable. This accelerated feature development, simplified refactoring, and reduced onboarding complexity.\n\n" +
+        "Contributed to migrating layout generation from frontend to backend, ensuring better maintainability. Updated frontend logic and populated the database with layout data from the frontend, maintaining backward compatibility while preparing for AI-driven generation.\n\n" +
+        "Developed interactive, brand-aligned presentation layouts for a fintech company, improving client interactions and user engagement.\n\n" +
+        "Labeled data to train computer vision models, enhancing AI-generated presentations and improving automated layout design for ML engineers.\n\n" +
+        "Worked within an Agile workflow, managing tasks in a card-based dashboard, setting priorities, and tracking progress to ensure timely project delivery.",
     },
   ],
   skills: [
-    "Frontend: React, Redux, Zustand, Next.js, TypeScript",
-    "Backend: Node.js, NestJS, MongoDB, Express",
-    "UI/UX Design and Styling: Storybook, TailwindCSS, shadcn/ui, Material-UI",
-    "Deployment & Operations: Git, Docker, Kubernetes, Nginx, PM2",
-    "Databases: PostgreSQL, MongoDB, Supabase",
-    "Database Management: Prisma",
-    "API Testing: Postman, Insomnia"
+    "Technical: JavaScript, React, Next.js, TypeScript, Zustand, Redux, HTML, CSS, Git, SASS, Tailwind CSS, shadcn/ui, Material-UI",
+    "Backend: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Redis, Supabase, Prisma, Zod",
+    "DevOps & Deployment: Docker, Kubernetes, Nginx, PM2, CI/CD",
+    "AI Tools: GPT-4o, DeepSeek-R1, Claude 3.5 Sonnet, Gemini 2.0",
+    "API Development & Testing: Postman, Insomnia",
+    "Languages: Russian (Native), English (Fluent)"
   ],
   achievements: [
     {
-      title: "Security Update",
+      title: "Secure Authentication System",
       description:
-        "Successfully migrated outdated project dependencies to newer versions, addressing and resolving security vulnerabilities. This critical update ensured the project's compliance with the latest security standards, significantly reducing the risk of security breaches and improving system stability.",
+        "Implemented an OAuth-based authentication system, replacing local authentication, improving security, and streamlining user access.",
     },
     {
-      title: "Web Applications Development",
+      title: "Backend Migration of Layout Generation",
       description:
-        "Developed and launched multiple web applications using React, Node.js, and MongoDB, resulting in robust, scalable solutions that significantly enhanced user engagement and system performance.",
+        "Led the migration of layout generation from frontend to backend, ensuring maintainability, backward compatibility, and AI-driven generation support.",
     },
     {
-      title: "Docker Deployment",
+      title: "Docker-Based Deployment",
       description:
-        "Designed and deployed a React application from scratch using Docker and Docker Compose, configuring Nginx to ensure optimal load balancing and secure connections. This deployment streamlined the development to production workflow, significantly reducing deployment complexities and enhancing application scalability.",
+        "Designed and deployed full-stack applications using Docker and Kubernetes, improving scalability and streamlining CI/CD workflows.",
     },
   ],
   projects: [
