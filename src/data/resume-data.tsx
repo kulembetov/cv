@@ -39,22 +39,20 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "IU International University of Applied Sciences",
-      degree: "Bachelor's Degree in Computer Science",
-      start: "May 2024",
-      end: "May 2027",
-      location: "Erfurt, Germany",
-      description:
-        "Studying foundational courses including Object-Oriented Programming, Java, Data Structures, and Web Development, with hands-on projects and collaborative teamwork.",
+      school: "Southern New Hampshire University",
+      degree: "B.Sc. Computer Science",
+      start: "June 2025",
+      end: "May 2028",
+      location: "Manchester, NH",
+      description: "",
     },
     {
-      school: "Yandex Practicum",
-      degree: "Professional Diploma in Web Development",
+      school: "Yandex.Practicum",
+      degree: "Web Developer Professional Training Course",
       start: "Sep 2022",
       end: "May 2024",
       location: "Moscow, Russia",
-      description:
-        "Developed practical programming skills through React, Node.js, and Docker projects, gaining hands-on experience in teamwork and hackathons.",
+      description: "",
     },
   ],
   work: [
@@ -67,21 +65,19 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description:
-        "Built a secure authentication system using React, Tailwind CSS, and NestJS, replacing local-only authentication with OAuth integration. This improved registration/login flow, ensured secure token storage, and enabled role-based access control.\n\n" +
-        "Wrote code following Feature-Sliced Design (FSD) architecture, making the codebase modular and maintainable. This accelerated feature development, simplified refactoring, and reduced onboarding complexity.\n\n" +
-        "Contributed to migrating layout generation from frontend to backend, ensuring better maintainability. Updated frontend logic and populated the database with layout data from the frontend, maintaining backward compatibility while preparing for AI-driven generation.\n\n" +
-        "Developed interactive, brand-aligned presentation layouts for a fintech company, improving client interactions and user engagement.\n\n" +
-        "Labeled data to train computer vision models, enhancing AI-generated presentations and improving automated layout design for ML engineers.\n\n" +
-        "Worked within an Agile workflow, managing tasks in a card-based dashboard, setting priorities, and tracking progress to ensure timely project delivery.",
+        "Owned the end-to-end layout delivery process for B2B and B2C clients, working across frontend and backend to support scalable presentation generation. Collaborated with an intern I mentored to build an internal tool that extracts and adapts layout data from Figma into our system. Led onboarding, code reviews, and integration support-streamlining the design-to-dev handoff and accelerating delivery.\n\n" +
+        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS-replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.\n\n" +
+        "Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.\n\n" +
+        "Helped migrate layout generation logic from the frontend to the backend to improve scalability and maintainability. Refactored frontend components and populated the database with structured layout data to support AI-driven generation.\n\n" +
+        "Built a Python microservice to automate layout provisioning by generating SQL and populating the database with reusable layout configs-cutting delivery time and enabling rapid onboarding of B2B clients like Sberbank and Gazprom.\n\n" +
+        "Labeled computer vision datasets using CVAT and exported annotations in COCO format to support ML engineers in training models for AI-generated presentation layouts.\n\n" +
+        "Delivered consistently in an Agile team environment-contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle.",
     },
   ],
   skills: [
-    "Technical: JavaScript, React, Next.js, TypeScript, Zustand, Redux, HTML, CSS, Git, SASS, Tailwind CSS, shadcn/ui, Material-UI",
-    "Backend: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Redis, Supabase, Prisma, Zod",
-    "DevOps & Deployment: Docker, Kubernetes, Nginx, PM2, CI/CD",
-    "AI Tools: GPT-4o, DeepSeek-R1, Claude 3.5 Sonnet, Gemini 2.0",
-    "API Development & Testing: Postman, Insomnia",
-    "Languages: Russian (Native), English (Fluent)"
+    "Technical: JavaScript, TypeScript, Python, React, Next.js, Redux, TanStack Query, HTML, CSS, Tailwind CSS, MUI, shadcn/ui, Node.js, Express.js, NestJS, Zod, PostgreSQL, MongoDB, Redis, Prisma, Docker, Git, Yandex Cloud, S3 Storage",
+    "AI Tools: GPT-4o, DeepSeek-R1, Claude 4.0 Sonnet, Gemini 2.0 Flash",
+    "Languages: Russian (native), English (fluent)",
   ],
   achievements: [
     {
