@@ -75,9 +75,26 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Technical: JavaScript, TypeScript, Python, React, Next.js, Redux, TanStack Query, HTML, CSS, Tailwind CSS, MUI, shadcn/ui, Node.js, Express.js, NestJS, Zod, PostgreSQL, MongoDB, Redis, Prisma, Docker, Git, Yandex Cloud, S3 Storage",
-    "AI Tools: GPT-4o, DeepSeek-R1, Claude 4.0 Sonnet, Gemini 2.0 Flash",
-    "Languages: Russian (native), English (fluent)",
+    {
+      category: "Technical",
+      skills: [
+        "JavaScript", "TypeScript", "Python", "React", "Next.js", "Redux", "TanStack Query",
+        "HTML", "CSS", "Tailwind CSS", "MUI", "shadcn/ui", "Node.js", "Express.js", "NestJS",
+        "Zod", "PostgreSQL", "MongoDB", "Redis", "Prisma", "Docker", "Git", "Yandex Cloud", "S3 Storage"
+      ]
+    },
+    {
+      category: "AI Tools",
+      skills: [
+        "GPT-4o", "DeepSeek-R1", "Claude 4.0 Sonnet", "Gemini 2.0 Flash"
+      ]
+    },
+    {
+      category: "Languages",
+      skills: [
+        "Russian (native)", "English (fluent)"
+      ]
+    }
   ],
   achievements: [
     {
