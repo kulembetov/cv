@@ -8,7 +8,9 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about: "Software Engineer",
   summary:
-    "Full-Stack Developer with hands-on experience in building scalable, high-performance applications and optimizing workflows. Proficient in React, Next.js, TypeScript, and NestJS, with a focus on secure authentication, modular architecture, and AI-powered solutions. Experienced in migrating frontend logic to backend services, integrating third-party APIs, and refining UI/UX for better engagement. Strong background in Agile development, improving team collaboration through structured workflows, task management, and continuous delivery.",
+    "Full-stack developer delivering secure, scalable, and maintainable applications end-to-end. Designed and implemented an OAuth-integrated authentication system with role-based access control, replacing a local-only setup and enabling one-tap sign-in. Applied Feature-Sliced Design (FSD) architecture to create modular codebases, reducing onboarding time and accelerating feature rollout.\n\n" +
+    "Architected a design-to-code automation pipeline that converted marked-up Figma files into production-ready database configurations, cutting delivery timelines from weeks to a day. Directed a multidisciplinary team to define markup standards, streamline collaboration, and ensure pixel-perfect UI fidelity for enterprise clients.\n\n" +
+    "Established company-wide development standards with automated quality checks — integrating formatting, linting, static typing, security scanning, and dependency management — improving code quality and reducing post-merge issues. Built a feedback and issue reporting system with responsive frontend components, a robust backend pipeline, and automated reporting to ensure daily actionable insights.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -65,52 +67,68 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description:
-        "Owned the end-to-end layout delivery process for B2B and B2C clients, working across frontend and backend to support scalable presentation generation. Collaborated with an intern I mentored to build an internal tool that extracts and adapts layout data from Figma into our system. Led onboarding, code reviews, and integration support-streamlining the design-to-dev handoff and accelerating delivery.\n\n" +
-        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS-replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.\n\n" +
+        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS—replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.\n\n" +
         "Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.\n\n" +
-        "Helped migrate layout generation logic from the frontend to the backend to improve scalability and maintainability. Refactored frontend components and populated the database with structured layout data to support AI-driven generation.\n\n" +
-        "Built a Python microservice to automate layout provisioning by generating SQL and populating the database with reusable layout configs-cutting delivery time and enabling rapid onboarding of B2B clients like Sberbank and Gazprom.\n\n" +
-        "Labeled computer vision datasets using CVAT and exported annotations in COCO format to support ML engineers in training models for AI-generated presentation layouts.\n\n" +
-        "Delivered consistently in an Agile team environment-contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle.",
+        "Co-led, with a senior developer, the end-to-end layout delivery process for B2B and B2C clients, spanning frontend, backend, and the Python-based \"Figma-to-Code\" microservice. On the frontend, ensured the template was displayed in the editor exactly as in Figma, preserving styles and positioning. On the backend, automated layout provisioning by extracting marked-up designs from Figma, generating SQL, and populating the database with reusable configurations—reducing delivery time from weeks to a day. Directed a team of three designers and three intern developers, defined Figma markup standards with stakeholders, managed tasks via a Kanban board, coordinated daily syncs and live coding sessions, and supported pilots for Sberbank, Gazprom, and Raiffeisen Bank by addressing feedback and delivering fixes.\n\n" +
+        "For the Figma-to-Code microservice, established and enforced project-wide development standards with a robust Pre-commit setup. Integrated Black for consistent code formatting, isort for import organization, Autoflake for removing unused code, Flake8 for style and error detection, Mypy for improving static typing, Pyupgrade for modernizing syntax, Bandit for security vulnerability scanning, and core pre-commit-hooks for catching common issues early. Managed dependencies via Poetry, ensuring automated quality checks and a maintainable, secure codebase.\n\n" +
+        "Designed and implemented a feedback and issue reporting workflow for the presentation generation tool. On the frontend, built responsive modals in React for collecting user feedback and bug reports. On the backend, developed handlers to store reports in PostgreSQL and a Python service to export data to Excel and Google Sheets. Automated daily updates through GitHub Actions and cron jobs, ensuring the team always had up-to-date user insights.\n\n" +
+        "Delivered consistently in an Agile team environment—contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle."
     },
   ],
   skills: [
     {
       category: "Technical",
       skills: [
-        "JavaScript", "TypeScript", "Python", "React", "Next.js", "Redux", "TanStack Query",
-        "HTML", "CSS", "Tailwind CSS", "MUI", "shadcn/ui", "Node.js", "Express.js", "NestJS",
-        "Zod", "PostgreSQL", "MongoDB", "Redis", "Prisma", "Docker", "Git", "Yandex Cloud", "S3 Storage"
+        "React", "Next.js", "NestJS", "Node.js", "TypeScript", "JavaScript", "Python",
+        "Redux", "TanStack Query", "Zod", "HTML", "CSS", "Tailwind CSS", "MUI", "shadcn/ui",
+        "PostgreSQL", "MongoDB", "Redis", "Prisma",
+        "Docker", "Git", "GitHub Actions", "Poetry", "S3 Storage", "Yandex Cloud",
+        "Black", "isort", "Autoflake", "Flake8", "Mypy", "Pyupgrade", "Bandit", "pre-commit"
       ]
     },
     {
       category: "AI Tools",
       skills: [
-        "GPT-4o", "DeepSeek-R1", "Claude 4.0 Sonnet", "Gemini 2.0 Flash"
+        "GPT", "DeepSeek", "Claude", "Gemini"
       ]
     },
     {
       category: "Languages",
       skills: [
-        "Russian (native)", "English (fluent)"
+        "Russian", "English"
       ]
     }
   ],
-  achievements: [
+  experience: [
     {
-      title: "Secure Authentication System",
+      title: "OAuth Authentication System",
       description:
-        "Implemented an OAuth-based authentication system, replacing local authentication, improving security, and streamlining user access.",
+        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS—replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.",
     },
     {
-      title: "Backend Migration of Layout Generation",
+      title: "FSD Architecture Implementation",
       description:
-        "Led the migration of layout generation from frontend to backend, ensuring maintainability, backward compatibility, and AI-driven generation support.",
+        "Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.",
     },
     {
-      title: "Docker-Based Deployment",
+      title: "End-to-End Layout Delivery Process",
       description:
-        "Designed and deployed full-stack applications using Docker and Kubernetes, improving scalability and streamlining CI/CD workflows.",
+        "Co-led, with a senior developer, the end-to-end layout delivery process for B2B and B2C clients, spanning frontend, backend, and the Python-based \"Figma-to-Code\" microservice. On the frontend, ensured the template was displayed in the editor exactly as in Figma, preserving styles and positioning. On the backend, automated layout provisioning by extracting marked-up designs from Figma, generating SQL, and populating the database with reusable configurations—reducing delivery time from weeks to a day. Directed a team of three designers and three intern developers, defined Figma markup standards with stakeholders, managed tasks via a Kanban board, coordinated daily syncs and live coding sessions, and supported pilots for Sberbank, Gazprom, and Raiffeisen Bank by addressing feedback and delivering fixes.",
+    },
+    {
+      title: "Development Standards for Figma-to-Code Microservice",
+      description:
+        "For the Figma-to-Code microservice, established and enforced project-wide development standards with a robust Pre-commit setup. Integrated Black for consistent code formatting, isort for import organization, Autoflake for removing unused code, Flake8 for style and error detection, Mypy for improving static typing, Pyupgrade for modernizing syntax, Bandit for security vulnerability scanning, and core pre-commit-hooks for catching common issues early. Managed dependencies via Poetry, ensuring automated quality checks and a maintainable, secure codebase.",
+    },
+    {
+      title: "Feedback and Issue Reporting Workflow",
+      description:
+        "Designed and implemented a feedback and issue reporting workflow for the presentation generation tool. On the frontend, built responsive modals in React for collecting user feedback and bug reports. On the backend, developed handlers to store reports in PostgreSQL and a Python service to export data to Excel and Google Sheets. Automated daily updates through GitHub Actions and cron jobs, ensuring the team always had up-to-date user insights.",
+    },
+    {
+      title: "Agile Team Environment Delivery",
+      description:
+        "Delivered consistently in an Agile team environment—contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle.",
     },
   ],
   projects: [

@@ -2,53 +2,62 @@
 
 ## Overview
 
-Full-Stack Developer with hands-on experience in building scalable, high-performance applications and optimizing workflows. Proficient in React, Next.js, TypeScript, and NestJS, with a focus on secure authentication, modular architecture, and AI-powered solutions. Experienced in migrating frontend logic to backend services, integrating third-party APIs, and refining UI/UX for better engagement. Strong background in Agile development, improving team collaboration through structured workflows, task management, and continuous delivery.
+Full-stack developer delivering secure, scalable, and maintainable applications end-to-end. Designed and implemented an OAuth-integrated authentication system with role-based access control, replacing a local-only setup and enabling one-tap sign-in. Applied Feature-Sliced Design (FSD) architecture to create modular codebases, reducing onboarding time and accelerating feature rollout.
 
-## Experience
+Architected a design-to-code automation pipeline that converted marked-up Figma files into production-ready database configurations, cutting delivery timelines from weeks to a day. Directed a multidisciplinary team to define markup standards, streamline collaboration, and ensure pixel-perfect UI fidelity for enterprise clients.
 
-### presentsimple.ai *(June 2024 - Present, Remote, Full-time)*
-- Built a secure authentication system using React, Tailwind CSS, and NestJS, replacing local-only authentication with OAuth integration. This allowed users to authenticate with one tap, significantly improving the registration and login flow while ensuring secure token storage and role-based access control.
-- Wrote code following FSD architecture, making it modular and maintainable. This accelerated feature development, simplified refactoring, and reduced onboarding complexity.
-- Contributed to migrating layout generation from the frontend to the backend for improved maintainability. Updated frontend logic and populated the database with layout data from the frontend, ensuring backward compatibility while preparing for AI-driven generation.
-- Developed interactive, brand-aligned presentation layouts for a fintech company, providing a more engaging and professional visual experience, which received positive feedback from stakeholders and improved client interactions.
-- Labeled data to train computer vision models, improving AI-generated presentations and enhancing the quality of automated design layouts for ML engineers working on model optimization.
-- Worked within an Agile workflow, managing tasks in a card-based dashboard, setting priorities, and tracking progress to ensure timely project delivery.
+Established company-wide development standards with automated quality checks — integrating formatting, linting, static typing, security scanning, and dependency management — improving code quality and reducing post-merge issues. Built a feedback and issue reporting system with responsive frontend components, a robust backend pipeline, and automated reporting to ensure daily actionable insights.
+
+## Work Experience
+
+### presentsimple.ai *(June 2024 - Present, Remote)*
+**Full-Stack Developer**
+
+Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS—replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.
+
+Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.
+
+Co-led, with a senior developer, the end-to-end layout delivery process for B2B and B2C clients, spanning frontend, backend, and the Python-based "Figma-to-Code" microservice. On the frontend, ensured the template was displayed in the editor exactly as in Figma, preserving styles and positioning. On the backend, automated layout provisioning by extracting marked-up designs from Figma, generating SQL, and populating the database with reusable configurations—reducing delivery time from weeks to a day. Directed a team of three designers and three intern developers, defined Figma markup standards with stakeholders, managed tasks via a Kanban board, coordinated daily syncs and live coding sessions, and supported pilots for Sberbank, Gazprom, and Raiffeisen Bank by addressing feedback and delivering fixes.
+
+For the Figma-to-Code microservice, established and enforced project-wide development standards with a robust Pre-commit setup. Integrated Black for consistent code formatting, isort for import organization, Autoflake for removing unused code, Flake8 for style and error detection, Mypy for improving static typing, Pyupgrade for modernizing syntax, Bandit for security vulnerability scanning, and core pre-commit-hooks for catching common issues early. Managed dependencies via Poetry, ensuring automated quality checks and a maintainable, secure codebase.
+
+Designed and implemented a feedback and issue reporting workflow for the presentation generation tool. On the frontend, built responsive modals in React for collecting user feedback and bug reports. On the backend, developed handlers to store reports in PostgreSQL and a Python service to export data to Excel and Google Sheets. Automated daily updates through GitHub Actions and cron jobs, ensuring the team always had up-to-date user insights.
+
+Delivered consistently in an Agile team environment—contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle.
 
 ## Education
 
-- **IU International University of Applied Sciences** *(May 2024 - May 2027, Germany, Erfurt)*
-  - Bachelor's Degree in Computer Science
-  - Focused on foundational courses such as Object-Oriented Programming, Java, Data Structures, and Web Development.
+- **Southern New Hampshire University** *(June 2025 - May 2028, Manchester, NH)*
+  - B.Sc. in Computer Science
 
-- **Yandex Practicum** *(September 2022 - May 2024, Moscow, Russia)*
+- **Yandex.Practicum** *(September 2022 - May 2024, Moscow, Russia)*
   - Web Developer Professional Training Course
-  - Gained hands-on programming skills by developing projects with technologies such as React, Node.js, and Docker, along with practical experience in teamwork and hackathons.
 
 ## Skills
 
-- **Technical:** JavaScript, React, HTML, CSS, Git, TypeScript, Redux, Next.js, Express.js, MongoDB, PostgreSQL, Redis, Prisma, Docker, NestJS, Zod, SASS, Tailwind CSS, MUI, shadcn/ui
-- **AI Tools:** GPT-4o, DeepSeek-R1, Claude 3.5 Sonnet, Gemini 2.0
-- **Languages:** Russian (Native), English (Fluent)
+- **Technical:** React, Next.js, NestJS, Node.js, TypeScript, JavaScript, Python, Redux, TanStack Query, Zod, HTML, CSS, Tailwind CSS, MUI, shadcn/ui, PostgreSQL, MongoDB, Redis, Prisma, Docker, Git, GitHub Actions, Poetry, S3 Storage, Yandex Cloud, Black, isort, Autoflake, Flake8, Mypy, Pyupgrade, Bandit, pre-commit
+- **AI Tools:** GPT, DeepSeek, Claude, Gemini
+- **Languages:** Russian, English
 
 ## Projects
 
 ### **Quzzly AI**
 - **Tech Stack:** React, Vite, Tailwind CSS, shadcn/ui, Zustand, Axios, Netlify
-- **Description:** A web-based quiz application fetching trivia questions from an external API, providing a dynamic quiz experience with Telegram WebApps integration.
+- **Description:** An interactive web-based quiz application that allows users to test their knowledge with real-time feedback. The app fetches trivia questions from an external API and provides a dynamic quiz experience. It is built with React, styled with Tailwind, and supports integration with Telegram WebApps for seamless use within the Telegram ecosystem.
 - [GitHub - Quzzly AI](https://github.com/kulembetov/quizzly-ai)
+
+### **Order Validation Food Delivery**
+- **Tech Stack:** Python
+- **Description:** I ordered water, a pie, and bread from a local thai app. Water was out of stock. When the first delivery came, one pie was out of stock. I ordered 10 pies (400 baht) and a few bottles (50 baht), getting free delivery. To prevent this issue, I wrote a script.
+- [GitHub - Order Validation Food Delivery](https://github.com/kulembetov/order-validation-food-delivery)
 
 ### **Card Hub**
 - **Tech Stack:** React, Redux Toolkit, Tailwind CSS
-- **Description:** SPA fetching and displaying images from Pexels API, allowing users to like and remove cards, persisting liked state in local storage.
+- **Description:** Card Hub is a Single Page Application (SPA) built with React, Redux Toolkit, and Tailwind CSS. The application fetches and displays images from the Pexels API, allowing users to like and remove cards with the liked state persisted in local storage.
 - [GitHub - Card Hub](https://github.com/kulembetov/card-hub)
 
 ### **Property Pulse**
 - **Tech Stack:** Next.js, Tailwind CSS, next-auth, react-icons, react-geo, react-map-gl, react-toastify, react-spinner
-- **Description:** A Next.js app for listing and searching rental properties.
+- **Description:** A Next.js app for listing and searching rental properties utilizing Tailwind CSS, next-auth, react-icons, react-geo, react-map-gl, react-toastify, and react-spinner.
 - [GitHub - Property Pulse](https://github.com/kulembetov/property-pulse)
-
-### **Order Validation Food Delivery**
-- **Tech Stack:** Python
-- **Description:** Automated script to prevent missing or unavailable items in a local Thai food delivery app.
-- [GitHub - Order Validation Food Delivery](https://github.com/kulembetov/order-validation-food-delivery)
 
