@@ -6,11 +6,11 @@ export const RESUME_DATA = {
   initials: "AK",
   location: "Bangkok, Thailand, GMT +7",
   locationLink: "https://www.google.com/maps/place/Bangkok",
-  about: "Software Engineer",
+  about: "Full-Stack Product Engineer",
   summary:
-    "Full-stack developer delivering secure, scalable, and maintainable applications end-to-end. Designed and implemented an OAuth-integrated authentication system with role-based access control, replacing a local-only setup and enabling one-tap sign-in. Applied Feature-Sliced Design (FSD) architecture to create modular codebases, reducing onboarding time and accelerating feature rollout.\n\n" +
-    "Architected a design-to-code automation pipeline that converted marked-up Figma files into production-ready database configurations, cutting delivery timelines from weeks to a day. Directed a multidisciplinary team to define markup standards, streamline collaboration, and ensure pixel-perfect UI fidelity for enterprise clients.\n\n" +
-    "Established company-wide development standards with automated quality checks — integrating formatting, linting, static typing, security scanning, and dependency management — improving code quality and reducing post-merge issues. Built a feedback and issue reporting system with responsive frontend components, a robust backend pipeline, and automated reporting to ensure daily actionable insights.",
+    "Full-Stack Product Engineer with expertise in building secure, scalable applications. At presentsimple.ai, I designed an OAuth authentication system with role-based access control and one-tap login using React, Tailwind CSS, NestJS, and NextAuth.js. I automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.\n\n" +
+    "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization. Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations.\n\n" +
+    "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Established engineering quality standards with Pre-commit hooks and expanded pytest coverage to 80%, cutting production bugs by 40%. Improved scalability by replacing manual data entry with automated template infrastructure, achieving 3x higher reuse.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -62,34 +62,56 @@ export const RESUME_DATA = {
       company: "presentsimple.ai",
       link: "https://presentsimple.ai/",
       badges: ["Remote"],
-      title: "Full-Stack Developer",
+      title: "Full-Stack Product Engineer",
       logo: "",
       start: "June 2024",
       end: "Present",
       description:
-        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS—replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.\n\n" +
-        "Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.\n\n" +
-        "Co-led, with a senior developer, the end-to-end layout delivery process for B2B and B2C clients, spanning frontend, backend, and the Python-based \"Figma-to-Code\" microservice. On the frontend, ensured the template was displayed in the editor exactly as in Figma, preserving styles and positioning. On the backend, automated layout provisioning by extracting marked-up designs from Figma, generating SQL, and populating the database with reusable configurations—reducing delivery time from weeks to a day. Directed a team of three designers and three intern developers, defined Figma markup standards with stakeholders, managed tasks via a Kanban board, coordinated daily syncs and live coding sessions, and supported pilots for Sberbank, Gazprom, and Raiffeisen Bank by addressing feedback and delivering fixes.\n\n" +
-        "For the Figma-to-Code microservice, established and enforced project-wide development standards with a robust Pre-commit setup. Integrated Black for consistent code formatting, isort for import organization, Autoflake for removing unused code, Flake8 for style and error detection, Mypy for improving static typing, Pyupgrade for modernizing syntax, Bandit for security vulnerability scanning, and core pre-commit-hooks for catching common issues early. Managed dependencies via Poetry, ensuring automated quality checks and a maintainable, secure codebase.\n\n" +
-        "Designed and implemented a feedback and issue reporting workflow for the presentation generation tool. On the frontend, built responsive modals in React for collecting user feedback and bug reports. On the backend, developed handlers to store reports in PostgreSQL and a Python service to export data to Excel and Google Sheets. Automated daily updates through GitHub Actions and cron jobs, ensuring the team always had up-to-date user insights.\n\n" +
-        "Delivered consistently in an Agile team environment—contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle."
+        "• Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.\n\n" +
+        "• Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.\n\n" +
+        "• Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.\n\n" +
+        "• Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.\n\n" +
+        "• Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.\n\n" +
+        "• Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.\n\n" +
+        "• Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.\n\n" +
+        "• Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams."
     },
   ],
   skills: [
     {
-      category: "Technical",
+      category: "Frontend",
       skills: [
-        "React", "Next.js", "NestJS", "Node.js", "TypeScript", "JavaScript", "Python",
-        "Redux", "TanStack Query", "Zod", "HTML", "CSS", "Tailwind CSS", "MUI", "shadcn/ui",
-        "PostgreSQL", "MongoDB", "Redis", "Prisma",
-        "Docker", "Git", "GitHub Actions", "Poetry", "S3 Storage", "Yandex Cloud",
-        "Black", "isort", "Autoflake", "Flake8", "Mypy", "Pyupgrade", "Bandit", "pre-commit"
+        "React", "Next.js", "Redux", "TanStack Query", "Zod", "Tailwind CSS", "MUI", "shadcn/ui", "HTML", "CSS"
+      ]
+    },
+    {
+      category: "Backend",
+      skills: [
+        "NestJS", "Node.js", "Python", "NextAuth.js"
+      ]
+    },
+    {
+      category: "Databases",
+      skills: [
+        "PostgreSQL", "MongoDB", "Redis", "Prisma"
+      ]
+    },
+    {
+      category: "Tooling",
+      skills: [
+        "Docker", "Git", "GitHub Actions", "Poetry", "S3 Storage", "Yandex Cloud", "Google Cloud"
+      ]
+    },
+    {
+      category: "Testing",
+      skills: [
+        "pytest", "pre-commit", "flake8", "mypy", "black", "bandit", "isort", "autoflake", "pyupgrade"
       ]
     },
     {
       category: "AI Tools",
       skills: [
-        "GPT", "DeepSeek", "Claude", "Gemini"
+        "GPT", "DeepSeek", "Claude", "Gemini", "Grok"
       ]
     },
     {
@@ -103,32 +125,42 @@ export const RESUME_DATA = {
     {
       title: "OAuth Authentication System",
       description:
-        "Built a secure, OAuth-integrated authentication system using React, Tailwind CSS, and NestJS—replacing local-only auth and enabling one-tap sign-in with secure token handling and role-based access control.",
+        "Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.",
     },
     {
-      title: "FSD Architecture Implementation",
+      title: "Delivery Pipeline Automation",
       description:
-        "Applied FSD architecture to structure codebases for modularity and maintainability, reducing onboarding time and enabling faster feature rollout across the stack.",
+        "Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.",
     },
     {
-      title: "End-to-End Layout Delivery Process",
+      title: "Figma-to-Code Microservice",
       description:
-        "Co-led, with a senior developer, the end-to-end layout delivery process for B2B and B2C clients, spanning frontend, backend, and the Python-based \"Figma-to-Code\" microservice. On the frontend, ensured the template was displayed in the editor exactly as in Figma, preserving styles and positioning. On the backend, automated layout provisioning by extracting marked-up designs from Figma, generating SQL, and populating the database with reusable configurations—reducing delivery time from weeks to a day. Directed a team of three designers and three intern developers, defined Figma markup standards with stakeholders, managed tasks via a Kanban board, coordinated daily syncs and live coding sessions, and supported pilots for Sberbank, Gazprom, and Raiffeisen Bank by addressing feedback and delivering fixes.",
+        "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.",
     },
     {
-      title: "Development Standards for Figma-to-Code Microservice",
+      title: "Asynchronous Processing Implementation",
       description:
-        "For the Figma-to-Code microservice, established and enforced project-wide development standards with a robust Pre-commit setup. Integrated Black for consistent code formatting, isort for import organization, Autoflake for removing unused code, Flake8 for style and error detection, Mypy for improving static typing, Pyupgrade for modernizing syntax, Bandit for security vulnerability scanning, and core pre-commit-hooks for catching common issues early. Managed dependencies via Poetry, ensuring automated quality checks and a maintainable, secure codebase.",
+        "Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.",
     },
     {
-      title: "Feedback and Issue Reporting Workflow",
+      title: "Cross-Functional Team Leadership",
       description:
-        "Designed and implemented a feedback and issue reporting workflow for the presentation generation tool. On the frontend, built responsive modals in React for collecting user feedback and bug reports. On the backend, developed handlers to store reports in PostgreSQL and a Python service to export data to Excel and Google Sheets. Automated daily updates through GitHub Actions and cron jobs, ensuring the team always had up-to-date user insights.",
+        "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.",
     },
     {
-      title: "Agile Team Environment Delivery",
+      title: "Engineering Quality Standards",
       description:
-        "Delivered consistently in an Agile team environment—contributing to standups, sprint planning, and code reviews. Collaborated with designers and QA to clarify requirements, maintain design consistency, and surface technical trade-offs early in the cycle.",
+        "Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.",
+    },
+    {
+      title: "Template Infrastructure Automation",
+      description:
+        "Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.",
+    },
+    {
+      title: "Feedback and Analytics System",
+      description:
+        "Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams.",
     },
   ],
   projects: [
