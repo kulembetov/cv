@@ -133,7 +133,11 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
+                  <ul className="list-disc list-outside ml-4 space-y-1">
+                    {work.description.map((bullet, index) => (
+                      <li key={index}>{bullet}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );

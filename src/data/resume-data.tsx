@@ -66,15 +66,16 @@ export const RESUME_DATA = {
       logo: "",
       start: "June 2024",
       end: "Present",
-      description:
-        "• Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.\n\n" +
-        "• Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.\n\n" +
-        "• Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.\n\n" +
-        "• Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.\n\n" +
-        "• Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.\n\n" +
-        "• Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.\n\n" +
-        "• Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.\n\n" +
-        "• Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams."
+      description: [
+        "Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.",
+        "Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.",
+        "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.",
+        "Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.",
+        "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.",
+        "Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.",
+        "Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.",
+        "Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams."
+      ]
     },
   ],
   skills: [
