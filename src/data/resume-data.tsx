@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about: "Full-Stack Product Engineer",
   summary:
-    "Full-Stack Product Engineer with expertise in building secure, scalable applications. At presentsimple.ai, I designed an OAuth authentication system with role-based access control and one-tap login using React, Tailwind CSS, NestJS, and NextAuth.js. I automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.\n\n" +
-    "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization. Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations.\n\n" +
-    "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Established engineering quality standards with Pre-commit hooks and expanded pytest coverage to 80%, cutting production bugs by 40%. Improved scalability by replacing manual data entry with automated template infrastructure, achieving 3x higher reuse.",
+    "Full-Stack Product Engineer with expertise in building secure, scalable applications. At presentsimple.ai, I built and launched an OAuth authentication system with role-based access control and one-tap sign-in using React, Tailwind CSS, NestJS, and NextAuth.js. I automated the delivery pipeline, increasing output from 4 templates a month to about 3 a day with a steady 30-minute turnaround per layout.\n\n" +
+    "Built a Python Figma-to-Code microservice (SQLAlchemy, Poetry) that extracted design data from Figma and generated SQL for the backend. Reworked the data pipeline by fixing N+1 patterns and switching to bulk operations, reducing full layout syncs from ~30 minutes to ~30 seconds. Added asyncio and aiohttp to run fetch/delete/generate tasks in parallel.\n\n" +
+    "Led a cross-functional team of 10 (5 designers, 5 developers) building the Design-to-Code pipeline with daily check-ins through Notion and YouTrack. Standardized the development workflow with automated formatting, linting, and security checks, raising pytest coverage to ~80%. Hotfixes dropped from double-digits to a few per month.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -67,14 +67,15 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description: [
-        "Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.",
-        "Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.",
-        "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.",
-        "Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.",
-        "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.",
-        "Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.",
-        "Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.",
-        "Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams."
+        "Built and launched a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, enabling one-tap sign-in and role-based access control.",
+        "Automated the delivery pipeline, increasing output from 4 templates a month to about 3 a day, with a steady 30-minute turnaround per layout.",
+        "Built a Python Figma-to-Code microservice (SQLAlchemy, Poetry) that extracted design data from Figma and generated SQL for the backend.",
+        "Reworked the data pipeline by fixing N+1 patterns and switching insert/delete/update flows to bulk operations, reducing full layout syncs from ~30 minutes to ~30 seconds. Added asyncio and aiohttp to run fetch/delete/generate tasks in parallel.",
+        "Led a cross-functional team of 10 (5 designers, 5 developers) building the Design-to-Code pipeline and overseeing Python microservices syncing Figma data, with daily check-ins through Notion and YouTrack.",
+        "Standardized the development workflow by adding automated formatting (black, isort), linting and type checks (flake8, mypy), cleanup tools (autoflake, pyupgrade), and security checks (bandit), raising pytest coverage to ~80%. Hotfixes dropped from double-digits to a few per month.",
+        "Automated creation of branded presentation layouts using a Python and PostgreSQL template pipeline based on client brand books. Increased layout reuse by ~3x and enabled client demos for Raiffeisen, Severstal, Gazprom, and Sber Marketing.",
+        "Implemented a feedback and analytics workflow using React, PostgreSQL, and Python services exporting data to Google Sheets and Google Cloud Storage. Added GitHub Actions and cron jobs for daily reporting.",
+        "Improved SEO and performance by building an SEO-focused catalog system with automated HTML generation for presentations and categories, increasing search visibility for AI presentation queries. Boosted Lighthouse scores to 91 (Performance), 84 (Accessibility), 96 (Best Practices), and 100 (SEO). Achieved strong Core Web Vitals (LCP 1.4s, INP 72ms, CLS 0.01, FCP 1.4s, TTFB 0.6s) and reduced Total Blocking Time to 20ms, improving LCP and CLS scores by 25+ points."
       ]
     },
   ],
@@ -82,7 +83,7 @@ export const RESUME_DATA = {
     {
       category: "Frontend",
       skills: [
-        "React", "Next.js", "Redux", "TanStack Query", "Zod", "Tailwind CSS", "MUI", "shadcn/ui", "HTML", "CSS"
+        "React", "Next.js", "Redux", "TanStack Query", "Zod", "Tailwind CSS", "MUI", "shadcn/ui", "HTML", "CSS", "i18n", "ARIA accessibility", "SEO optimization"
       ]
     },
     {
@@ -98,15 +99,27 @@ export const RESUME_DATA = {
       ]
     },
     {
-      category: "Tooling",
+      category: "Tooling & Infra",
       skills: [
-        "Docker", "Git", "GitHub Actions", "Poetry", "S3 Storage", "Yandex Cloud", "Google Cloud"
+        "Docker", "Git", "GitHub Actions", "Poetry", "S3 Storage", "Yandex Cloud", "Google Cloud", "Sentry", "PostHog", "Google Lighthouse", "YouTrack", "Conventional Commits", "Turborepo", "Nx", "Vault"
+      ]
+    },
+    {
+      category: "Version Control",
+      skills: [
+        "Git", "jj", "Mercurial", "SVN"
+      ]
+    },
+    {
+      category: "Security & Scanning",
+      skills: [
+        "Trivy", "Gitleaks", "TruffleHog", "Snyk", "ggshield", "bandit"
       ]
     },
     {
       category: "Testing",
       skills: [
-        "pytest", "pre-commit", "flake8", "mypy", "black", "bandit", "isort", "autoflake", "pyupgrade"
+        "Playwright", "pytest", "pre-commit", "flake8", "mypy", "black", "isort", "autoflake", "pyupgrade"
       ]
     },
     {
@@ -126,42 +139,47 @@ export const RESUME_DATA = {
     {
       title: "OAuth Authentication System",
       description:
-        "Designed and implemented a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, introducing role-based access control and seamless one-tap login.",
+        "Built and launched a secure OAuth authentication system using React, Tailwind CSS, NestJS, and NextAuth.js, enabling one-tap sign-in and role-based access control.",
     },
     {
       title: "Delivery Pipeline Automation",
       description:
-        "Automated the delivery pipeline, scaling output from 4 templates per month to 10 per day (90%+ time reduction) and delivering over 300 layouts with consistent 30-minute turnaround.",
+        "Automated the delivery pipeline, increasing output from 4 templates a month to about 3 a day, with a steady 30-minute turnaround per layout.",
     },
     {
       title: "Figma-to-Code Microservice",
       description:
-        "Architected and deployed a Figma-to-Code microservice in Python (SQLAlchemy, Poetry), automating data extraction and SQL generation. Supported 1,000+ daily PostgreSQL operations and reduced query runtime from 30s to 1s via bulk inserts and query optimization.",
+        "Built a Python Figma-to-Code microservice (SQLAlchemy, Poetry) that extracted design data from Figma and generated SQL for the backend.",
     },
     {
-      title: "Asynchronous Processing Implementation",
+      title: "Data Pipeline Optimization",
       description:
-        "Introduced system-wide asynchronous processing with asyncio and aiohttp, enabling concurrent operations for fetching, deletion, and layout generation. Improved scalability and delivery speed for key B2B clients.",
+        "Reworked the data pipeline by fixing N+1 patterns and switching insert/delete/update flows to bulk operations, reducing full layout syncs from ~30 minutes to ~30 seconds. Added asyncio and aiohttp to run fetch/delete/generate tasks in parallel.",
     },
     {
       title: "Cross-Functional Team Leadership",
       description:
-        "Led a cross-functional team of 6 (3 designers, 3 engineering interns) over a 3-month cycle. Managed workflow via Notion Kanban and daily syncs, conducting 90+ live coding sessions that boosted intern contributions to 40% of the codebase and ensured timely enterprise delivery.",
+        "Led a cross-functional team of 10 (5 designers, 5 developers) building the Design-to-Code pipeline and overseeing Python microservices syncing Figma data, with daily check-ins through Notion and YouTrack.",
     },
     {
-      title: "Engineering Quality Standards",
+      title: "Development Workflow Standardization",
       description:
-        "Established engineering quality standards with Pre-commit hooks (black, isort, autoflake, flake8, mypy, pyupgrade, bandit) and expanded pytest coverage to 80%, cutting production bugs by 40%.",
+        "Standardized the development workflow by adding automated formatting (black, isort), linting and type checks (flake8, mypy), cleanup tools (autoflake, pyupgrade), and security checks (bandit), raising pytest coverage to ~80%. Hotfixes dropped from double-digits to a few per month.",
     },
     {
       title: "Template Infrastructure Automation",
       description:
-        "Improved scalability and reusability by replacing manual data entry from Figma with automated template infrastructure, achieving 3x higher reuse and enabling rapid customization for enterprise demos with Raiffeisen, Gazprom, and Sber Marketing.",
+        "Automated creation of branded presentation layouts using a Python and PostgreSQL template pipeline based on client brand books. Increased layout reuse by ~3x and enabled client demos for Raiffeisen, Severstal, Gazprom, and Sber Marketing.",
     },
     {
-      title: "Feedback and Analytics System",
+      title: "Feedback and Analytics Workflow",
       description:
-        "Developed a feedback and analytics system using React modals, PostgreSQL persistence, and Python-based export services integrated with Google Sheets and Google Cloud. Automated reporting through GitHub Actions and cron jobs, providing daily actionable insights for the engineering and design teams.",
+        "Implemented a feedback and analytics workflow using React, PostgreSQL, and Python services exporting data to Google Sheets and Google Cloud Storage. Added GitHub Actions and cron jobs for daily reporting.",
+    },
+    {
+      title: "SEO and Performance Optimization",
+      description:
+        "Improved SEO and performance by building an SEO-focused catalog system with automated HTML generation for presentations and categories, increasing search visibility for AI presentation queries. Boosted Lighthouse scores to 91 (Performance), 84 (Accessibility), 96 (Best Practices), and 100 (SEO). Achieved strong Core Web Vitals (LCP 1.4s, INP 72ms, CLS 0.01, FCP 1.4s, TTFB 0.6s) and reduced Total Blocking Time to 20ms, improving LCP and CLS scores by 25+ points.",
     },
   ],
   projects: [
