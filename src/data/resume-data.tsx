@@ -78,6 +78,23 @@ export const RESUME_DATA = {
         "Improved SEO and performance by building an SEO-focused catalog system with automated HTML generation for presentations and categories, increasing search visibility for AI presentation queries. Boosted Lighthouse scores to 91 (Performance), 84 (Accessibility), 96 (Best Practices), and 100 (SEO). Achieved strong Core Web Vitals (LCP 1.4s, INP 72ms, CLS 0.01, FCP 1.4s, TTFB 0.6s) and reduced Total Blocking Time to 20ms, improving LCP and CLS scores by 25+ points."
       ]
     },
+    {
+      company: "Alpha Ecosystem",
+      link: "https://salfa.ru/sarawan/",
+      badges: ["Remote"],
+      title: "Internship",
+      logo: "",
+      start: "Mar 2024",
+      end: "May 2024",
+      description: [
+        "Identified and resolved circular dependency issues across the codebase by configuring ESLint import/no-cycle rule from warning to error level.",
+        "Refactored Redux selectors into separate files to improve code modularity and eliminate linting errors.",
+        "Configured ESLint to properly lint TypeScript files by fixing the project parameter configuration.",
+        "Set up Husky pre-commit hooks with ESLint checks to prevent builds with linting errors while allowing warnings.",
+        "Added build verification workflow, running build commands locally before pushing to catch Vercel deployment failures.",
+        "Created npm script aliases for linting and formatting to streamline the development workflow."
+      ]
+    },
   ],
   skills: [
     {
