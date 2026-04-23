@@ -5,9 +5,9 @@ export const RESUME_DATA = {
   initials: "AK",
   location: "Danang, Vietnam",
   locationLink: "https://www.google.com/maps/place/Da+Nang",
-  about: "Full-Stack Engineer",
+  about: "Full-Stack Product Engineer",
   summary:
-    "Full-Stack Engineer with 2+ years of experience building automation-heavy systems and product features in an AI startup environment. Strong across Python, TypeScript, Node.js, React, and PostgreSQL, with end-to-end ownership spanning architecture, delivery, performance, and developer workflow quality.",
+    "Full-Stack Product Engineer building and leading work across frontend, backend, CI/CD, and observability. Focused on turning rough product ideas into shipped software - from user-facing features and backend flows to production delivery, iteration, and cross-functional execution. Especially interested in products where strong engineering, fast execution, and business value all matter.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56837366?v=4",
   personalWebsiteUrl: "https://cv-kulembetov.vercel.app",
   contact: {
@@ -46,7 +46,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "presentsimple.ai",
+      company: "Presentsimple AI",
       link: "https://presentsimple.ai/",
       badges: ["Remote"],
       title: "Full-Stack Product Engineer",
@@ -54,14 +54,16 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "Present",
       description: [
-        "Owned end-to-end architecture and delivery for core product systems across frontend, backend, data, and infrastructure, driving features from PRD to production release.",
-        "Led technical execution across a 10-person cross-functional team: decomposition, sequencing, code review standards, and release coordination.",
-        "Designed and shipped a secure auth platform (React, NestJS, NextAuth.js) with one-tap OAuth and RBAC, reducing onboarding friction while strengthening access control.",
-        "Built a Python Figma-to-code pipeline that increased template generation from 4/month to 3+ per day, enabling enterprise demos for Raiffeisen, Severstal, Gazprom, and Sber Marketing.",
-        "Re-architected sync/data workflows by removing N+1 queries, introducing bulk operations, and parallelizing bottlenecks, cutting full layout sync from ~30 minutes to ~30 seconds.",
-        "Built production observability stack and alerting workflows (Grafana, Prometheus, Loki, Promtail, Sentry), improving incident detection and time-to-resolution.",
-        "Established CI/CD quality gates across formatting, linting, static typing, tests, and security checks; raised pytest coverage to ~80% and materially reduced release regressions.",
-        "Improved frontend performance and SEO to Lighthouse 91 Performance / 100 SEO, increasing Core Web Vitals by 25+ points."
+        "Led daily standups and cross-functional execution across product, design, and engineering, turning ambiguous requirements into scoped work and shipped features.",
+        "Built a Python Figma-to-layout ingestion pipeline using the Figma API, Telegram, and PostgreSQL, processing a 45-slide template and ~3,950 records in one run.",
+        "Replaced N+1-style database writes and deletes with batched bulk operations and transactional retry handling, making layout sync reliable at higher data volume.",
+        "Built AI-assisted content generation with quotas and moderation checks, speeding creation while keeping abuse, cost, and output quality under control.",
+        "Connected CloudPayments subscriptions to feature-flagged access, helping the team roll out and A/B test paid features without hardcoded gates.",
+        "Moved long-running asset generation into queue-backed jobs with retryable failures, keeping heavy work off user-facing request paths.",
+        "Built one-tap OAuth and RBAC authentication, reducing onboarding friction without weakening access control.",
+        "Built release-safety tooling around typed env validation, CI checks, Docker deploys, and observability, reducing config drift and regressions.",
+        "Stabilized interactive editor flows with optimistic updates, cache invalidation, and cleaner local/server state boundaries.",
+        "Automated lifecycle messaging and reminders, clarifying billing states while reducing support overhead."
       ]
     },
     {
@@ -73,11 +75,10 @@ export const RESUME_DATA = {
       start: "Mar 2024",
       end: "May 2024",
       description: [
-        "Refactored frontend architecture for scalability by modularizing state/selectors and reducing coupling between feature areas, improving maintainability and delivery speed.",
-        "Strengthened code quality standards by enforcing strict lint/type rules and eliminating circular dependencies that were causing fragile imports and regressions.",
-        "Improved frontend reliability by introducing pre-commit and CI validation gates (format, lint, type checks, build verification) to block broken changes before deploy.",
-        "Optimized release stability by tightening development workflows and standardizing scripts/tooling used by the team for consistent local and CI behavior.",
-        "Contributed to UI performance and UX polish through targeted refactors in component structure and rendering paths, reducing frontend defects and rework."
+        "Split tightly coupled frontend state into feature-owned modules, making large UI changes safer to review and ship.",
+        "Fixed stale-state and rendering issues in interactive flows with targeted client-state and render-path refactors.",
+        "Extracted reusable UI and state patterns to reduce duplicated implementation across screens.",
+        "Removed circular dependencies and enforced strict lint/type rules, reducing fragile imports during feature work."
       ]
     },
   ],
@@ -97,34 +98,56 @@ export const RESUME_DATA = {
       ]
     },
     {
-      category: "Backend",
+      category: "Backend & Platform",
       skills: [
         "Node.js",
         "NestJS",
         "Python",
-        "NextAuth.js",
-        "JWT authentication",
-        "Swagger"
+        "BullMQ",
+        "JWT",
+        "OAuth",
+        "REST APIs",
+        "Swagger/OpenAPI"
       ]
     },
     {
-      category: "Databases",
+      category: "Data & Storage",
       skills: [
         "PostgreSQL",
         "Redis",
         "Prisma",
-        "MongoDB"
+        "MongoDB",
+        "S3-compatible storage"
       ]
     },
     {
-      category: "Infrastructure",
+      category: "AI & Integrations",
+      skills: [
+        "OpenAI/OpenRouter APIs",
+        "Figma API",
+        "Telegram Bot API",
+        "webhooks",
+        "Resend"
+      ]
+    },
+    {
+      category: "Payments & Monetization",
+      skills: [
+        "CloudPayments",
+        "Stripe",
+        "Polar.sh",
+        "CryptoCloud"
+      ]
+    },
+    {
+      category: "Infrastructure & Observability",
       skills: [
         "Docker",
-        "GitLab CI/CD pipelines",
+        "GitLab CI/CD",
+        "Terraform",
         "Grafana",
         "Prometheus",
         "Loki",
-        "Promtail",
         "Sentry",
         "PostHog"
       ]
@@ -136,7 +159,7 @@ export const RESUME_DATA = {
         "pytest",
         "mypy",
         "flake8",
-        "black"
+        "Black"
       ]
     },
     {
@@ -148,44 +171,54 @@ export const RESUME_DATA = {
   ],
   experience: [
     {
-      title: "End-to-End Product Ownership",
+      title: "Cross-Functional Execution",
       description:
-        "Owned end-to-end architecture and delivery for core product systems across frontend, backend, data, and infrastructure, driving features from PRD to production release.",
+        "Led daily standups and cross-functional execution across product, design, and engineering, turning ambiguous requirements into scoped work and shipped features.",
     },
     {
-      title: "Cross-Functional Technical Leadership",
+      title: "Figma-to-Layout Pipeline",
       description:
-        "Led technical execution across a 10-person cross-functional team: decomposition, sequencing, code review standards, and release coordination.",
+        "Built a Python Figma-to-layout ingestion pipeline using the Figma API, Telegram, and PostgreSQL, processing a 45-slide template and ~3,950 records in one run.",
     },
     {
-      title: "Secure Authentication Platform",
+      title: "Data Sync Reliability",
       description:
-        "Designed and shipped a secure auth platform (React, NestJS, NextAuth.js) with one-tap OAuth and RBAC, reducing onboarding friction while strengthening access control.",
+        "Replaced N+1-style database writes and deletes with batched bulk operations and transactional retry handling, making layout sync reliable at higher data volume.",
     },
     {
-      title: "Template Automation Pipeline",
+      title: "AI-Assisted Generation",
       description:
-        "Built a Python Figma-to-code pipeline that increased template generation from 4/month to 3+ per day, enabling enterprise demos for Raiffeisen, Severstal, Gazprom, and Sber Marketing.",
+        "Built AI-assisted content generation with quotas and moderation checks, speeding creation while keeping abuse, cost, and output quality under control.",
     },
     {
-      title: "Data Workflow Re-Architecture",
+      title: "Subscription Access Controls",
       description:
-        "Re-architected sync/data workflows by removing N+1 queries, introducing bulk operations, and parallelizing bottlenecks, cutting full layout sync from ~30 minutes to ~30 seconds.",
+        "Connected CloudPayments subscriptions to feature-flagged access, helping the team roll out and A/B test paid features without hardcoded gates.",
     },
     {
-      title: "Observability and Incident Response",
+      title: "Queue-Backed Jobs",
       description:
-        "Built production observability stack and alerting workflows (Grafana, Prometheus, Loki, Promtail, Sentry), improving incident detection and time-to-resolution.",
+        "Moved long-running asset generation into queue-backed jobs with retryable failures, keeping heavy work off user-facing request paths.",
     },
     {
-      title: "CI/CD Quality Gates",
+      title: "Auth and Access",
       description:
-        "Established CI/CD quality gates across formatting, linting, static typing, tests, and security checks; raised pytest coverage to ~80% and materially reduced release regressions.",
+        "Built one-tap OAuth and RBAC authentication, reducing onboarding friction without weakening access control.",
     },
     {
-      title: "Frontend Performance and SEO",
+      title: "Release Safety and Observability",
       description:
-        "Improved frontend performance and SEO to Lighthouse 91 Performance / 100 SEO, increasing Core Web Vitals by 25+ points.",
+        "Built release-safety tooling around typed env validation, CI checks, Docker deploys, and observability, reducing config drift and regressions.",
+    },
+    {
+      title: "Editor State Stability",
+      description:
+        "Stabilized interactive editor flows with optimistic updates, cache invalidation, and cleaner local/server state boundaries.",
+    },
+    {
+      title: "Lifecycle Automation",
+      description:
+        "Automated lifecycle messaging and reminders, clarifying billing states while reducing support overhead.",
     },
   ],
   projects: [
